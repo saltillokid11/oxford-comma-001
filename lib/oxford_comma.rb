@@ -1,6 +1,6 @@
 def oxford_comma(array)
   if array.length == 1
-    return array.grep["kiwi"]
+    return array.grep("kiwi")
   if array.length == 2
     array.join(" and ")
   elsif array.length == 3
